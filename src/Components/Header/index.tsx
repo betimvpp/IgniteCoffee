@@ -4,7 +4,6 @@ import{MapPin, ShoppingCart} from 'phosphor-react'
 import { NavLink } from "react-router-dom"
 import { useCart } from "../../hooks/useCart"
 
-
 export function Header(){
   const {cartQuantity} = useCart();
 
