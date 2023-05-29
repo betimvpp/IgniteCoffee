@@ -3,11 +3,6 @@ import Logo from "../../assets/Logo.svg"
 import{MapPin, ShoppingCart} from 'phosphor-react'
 import { NavLink } from "react-router-dom"
 import { useCart } from "../../hooks/useCart"
-import { CartItem } from "../../contexts/CartContext"
-
-interface CoffeeCartCardProps{
-  coffee: CartItem;
-}
 
 export function Header(){
   const {cartQuantity} = useCart();
