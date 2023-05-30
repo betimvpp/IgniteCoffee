@@ -13,5 +13,5 @@ export function Router(){
         <Route path="/orderConfirmed" element={<OrderConfirmedPage/>}/>
       </Route>
     </Routes>
-  )
+  );
 }
